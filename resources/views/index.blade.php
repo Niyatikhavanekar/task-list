@@ -21,7 +21,7 @@
         <div>There is no tasks</div>
     @endforelse --}}
     <nav class="mb-4">
-        <a href="{{route('task.create')}}" class="font-medium text-gray-700 underline decoration-pink-500">Add Task</a>
+        <a href="{{route('task.create')}}" class="link">Add Task</a>
     </nav>
     @forelse ($tasks as $task)
         <div>
